@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:paddingRight="10dp"
+        android:text="0"
+        android:textColor="@color/black"
+
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button android:id="@+id/btnc"
+            style="@style/opo2"
+            android:text="c" />
+
+        <Button
+            android:id="@+id/btnkosyveaku"
+            style="@style/opo2"
+            android:text="+/-" />
+
+        <Button
+            android:id="@+id/btnprocent"
+            style="@style/opo2"
+            android:text="%" />
+
+        <Button
+            android:id="@+id/btnbolu"
+            style="@style/opo2"
+            android:text="/" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/btn7"
+            style="@style/opa"
+            android:text="7"/>
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn8"
+            android:text="8" />
+
+        <Button
+            style="@style/opo2"
+            android:id="@+id/btn9"
+            android:text="9"/>
+        <Button
+            style="@style/opo2"
+            android:id="@+id/btnkob"
+            android:text="*"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1">
+
+
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn4"
+            android:text="4" />
+
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn5"
+            android:text="5" />
+
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn6"
+            android:text="6" />
+
+        <Button
+            style="@style/opo2"
+            android:id="@+id/btnazaitu"
+            android:text="-" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_height="match_parent">
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn1"
+            android:text="1"/>
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn2"
+            android:text="2"/>
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn3"
+            android:text="3"/>
+        <Button
+            style="@style/opo2"
+            android:id="@+id/btnkosu"
+            android:text="+"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn0"
+            android:text="0" />
+
+        <Button
+            style="@style/opa"
+            android:id="@+id/btn."
+            android:text="." />
+
+        <Button
+            style="@style/opa"
+            android:text="a" />
+
+        <Button
+            style="@style/opo2"
+            android:id="@+id/btnten"
+            android:text="=" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
